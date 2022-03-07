@@ -26,7 +26,7 @@ pipeline {
  }
  stage('SonarQube Analysis') {
  steps {
- sh 'mvn -e clean verify sonar:sonar -Dsonar.projectKey=testProject -Dsonar.host.url=http://localhost:9000 -Dsonar.login=test'
+ sh 'mvn -e clean verify sonar:sonar -Dsonar.projectKey=testProject -Dsonar.host.url=http://localhost:9000 -Dsonar.login=tes'
  }
  }
 
